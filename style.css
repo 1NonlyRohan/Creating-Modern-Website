@@ -1,0 +1,164 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+}
+
+body {
+    background: rgb(26, 25, 25);
+}
+
+.line {
+    border-bottom: 2px solid crimson;
+    margin-left: 50px;
+    margin-top: 70px;
+    margin-right: 50px;
+}
+
+.navbar ul {
+    overflow: auto;
+}
+
+.navbar li {
+    list-style: none;
+    float: left;
+    padding-top: 50px;
+    padding-left: 130px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1.8px;
+    font-family: cinzel;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    color: #0ef;
+    transition: all 0.5s ease;
+}
+
+.footer marquee {
+    color: #0ef;
+    font-family: cinzel;
+    letter-spacing: 2px;
+    padding-top: 150px;
+    font-size: 23px;
+}
+
+.mid h1 {
+    color: gray;
+    font-family: cinzel;
+    font-size: 30px;
+    padding-top: 40px;
+    padding-left: 8%;
+}
+
+.mid h2 {
+    color: royalblue;
+    font-family: cinzel;
+    font-size: 30px;
+    padding-left: 8%;
+}
+
+.mid p {
+    color: deeppink;
+    font-size: 20px;
+    padding-left: 8%;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding-top: 50px;
+    font-family: cinzel;
+}
+
+.span1{
+    color: rgb(243, 9, 9);
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding-top: 50px;
+    font-family: cinzel;
+}
+
+.span2{
+    color: rgb(61, 224, 28);
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding-top: 50px;
+    font-family: cinzel;
+}
+
+.span3{
+    color: rgb(236, 68, 16);
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding-top: 50px;
+    font-family: cinzel;
+}
+
+.box1{
+    background-color:rgb(14, 20, 18);
+    width: 49%;
+    float: left;
+    border: 1px solid #0ef;
+    margin-top: 60px;
+    border-radius: 0px 225px 225px 0px;
+    height: 600px;
+}
+
+.box2{
+    background-color: rgb(14, 20, 18);
+    width: 49%;
+    border: 1px solid #0ef;
+    float:right;
+    margin-top: 60px;
+    border-radius: 225px 0px 0px 225px;
+    height: 600px;
+}
+
+.box1 h1{
+    font-family: cinzel;
+    padding:25px 225px 60px 330px;
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.box2 h1{
+    font-family: cinzel;
+    cursor: pointer;
+    color: white;
+    padding:25px 225px 60px 330px;
+    font-size: 30px;
+}
+
+.box1 h1:hover{
+    color: #0ef;
+}
+
+.box2 h1:hover{
+    color: #0ef;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 10px rgb(32, 30, 30); 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(0, 153, 255); 
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #f709c3;
+}
