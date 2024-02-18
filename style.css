@@ -23,12 +23,12 @@ body {
     list-style: none;
     float: left;
     padding-top: 50px;
-    padding-left: 130px;
+    padding-left: 120px;
 }
 
 .navbar li a {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
     color: white;
     letter-spacing: 1.8px;
@@ -75,7 +75,7 @@ body {
 }
 
 .span1{
-    color: rgb(243, 9, 9);
+    color: rgb(9, 243, 107);
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 2px;
@@ -84,7 +84,7 @@ body {
 }
 
 .span2{
-    color: rgb(61, 224, 28);
+    color: rgb(248, 53, 5);
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 2px;
@@ -93,7 +93,7 @@ body {
 }
 
 .span3{
-    color: rgb(236, 68, 16);
+    color: rgb(236, 232, 16);
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 2px;
