@@ -8,11 +8,18 @@ body {
     background: rgb(26, 25, 25);
 }
 
-.line {
+.line1 {
     border-bottom: 2px solid crimson;
     margin-left: 50px;
     margin-top: 70px;
     margin-right: 50px;
+}
+
+.line2{
+    border-bottom: 5px solid grey;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
 }
 
 .navbar ul {
@@ -64,17 +71,16 @@ body {
     padding-left: 8%;
 }
 
-.mid p {
+.box1 p {
     color: deeppink;
     font-size: 20px;
-    padding-left: 8%;
+    padding-left: 5%;
     font-weight: bold;
     letter-spacing: 2px;
-    padding-top: 50px;
     font-family: cinzel;
 }
 
-.span1{
+.span1 {
     color: rgb(9, 243, 107);
     font-size: 20px;
     font-weight: bold;
@@ -83,7 +89,7 @@ body {
     font-family: cinzel;
 }
 
-.span2{
+.span2 {
     color: rgb(248, 53, 5);
     font-size: 20px;
     font-weight: bold;
@@ -92,7 +98,7 @@ body {
     font-family: cinzel;
 }
 
-.span3{
+.span3 {
     color: rgb(236, 232, 16);
     font-size: 20px;
     font-weight: bold;
@@ -101,67 +107,112 @@ body {
     font-family: cinzel;
 }
 
-.box1{
-    background-color:rgb(14, 20, 18);
+.box1 {
+    background-color: rgb(14, 20, 18);
     width: 49%;
     float: left;
     cursor: pointer;
     border: 1px solid rgb(55, 0, 255);
     margin-left: 10px;
-    margin-top: 20px;
+    margin-top: 5%;
     border-radius: 60px;
     height: 600px;
 }
 
-.box2{
+.box2 {
     background-color: rgb(14, 20, 18);
     width: 49%;
     cursor: pointer;
     border: 1px solid rgb(55, 0, 255);
-    float:right;
-    margin-top: 20px;
+    float: right;
+    margin-top: 5%;
     border-radius: 60px;
     height: 600px;
 }
 
-.box1 h1{
+.box1 h1 {
     font-family: cinzel;
-    padding:25px 225px 60px 330px;
+    padding: 25px 225px 60px 330px;
     color: white;
     cursor: pointer;
     font-size: 30px;
 }
 
-.box2 h1{
+.box2 h1 {
     font-family: cinzel;
     cursor: pointer;
     color: white;
-    padding:25px 225px 60px 330px;
+    padding: 25px 225px 60px 330px;
     font-size: 30px;
 }
 
-.box1 h1:hover{
+.box1 h1:hover {
     color: #0ef;
 }
 
-.box2 h1:hover{
+.box2 h1:hover {
     color: #0ef;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     width: 10px;
 }
 
 ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 10px rgb(32, 30, 30); 
+    box-shadow: inset 0 0 10px rgb(32, 30, 30);
     border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgb(0, 153, 255); 
+    background: rgb(0, 153, 255);
     border-radius: 10px;
-  }
+}
 
-  ::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover {
     background: #f709c3;
+}
+
+
+.join-us h1{
+        color: white;
+        margin-left: 150px;
+}
+
+.form-control{
+    margin-top: 50px;
+    margin-left: 160px;
+}
+
+::placeholder{
+    color: red;
+}
+
+form #text{
+    color: black;
+    padding: 10px;
+    width: 20%;
+    font-size: 23px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: monospace;
+    font-weight: 600;
+}
+
+.button{
+        padding: 10px;
+        width: 160px;
+        border-radius: 20px;
+        background-color: red;  
+}
+
+.button a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-family: cinzel;
+}
+
+.button a:hover{
+    color: black;
+    transform: 0.5s;
 }
